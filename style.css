@@ -1,0 +1,84 @@
+/* Estilo da conversão de números */
+#conversor{
+   margin-left: 35%;
+}
+
+label{
+    font-size: 20px;
+}
+
+input{
+    border-radius: 6px;
+}
+
+button{
+    border-radius: 8px;
+    font-size: 14px;
+    color: white;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.divider{
+    width: 100%;
+    border-top: .9px solid #bfbfbf;
+    margin: 40px 0;
+}
+/* Fim do estilo da conversão de números */
+
+
+
+/* Estilo do jogo da vida*/
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    grid-template-rows: repeat(10, 30px);
+    gap: 1px;
+    border: 1px solid green;
+    width: 100%;
+    max-width: 305px; 
+    margin: 0 auto;
+    
+  }
+  
+  .cell {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+  }
+  
+  .cell.alive {
+    background-color: green;
+  }
+  /* Fim do estilo do jogo da vida*/
+
+
+  /* Estilo da calculadora*/
+  .content{
+    text-align: center;
+  }
+
+  h3{
+    font-size: 30px;
+  }
+
+  .input-container {
+    margin-bottom: 10px;
+  }
+  
+  .input-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .result-container {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  /* Fim do estilo da calculadora*/
+  

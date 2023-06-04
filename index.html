@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <div id="conversor">
+        <h1>Conversor de números romanos para arábicos</h1>
+          <label for="romanInput">Número Romano:</label>
+          <input type="text" id="romanInput">
+          <button onclick="convertToArabic()">Converter para Arábico</button>
+          <p id="arabicResult"></p>
+        
+        <h1>Conversor de números arábicos para romanos</h1>
+          <label for="arabicInput">Número Arábico:</label>
+          <input type="number" id="arabicInput">
+          <button onclick="convertToRomano()">Converter para Romano</button>
+          <p id="romanResult"></p>
+     </div>
+     <script src="./script.js"></script>
+     <div class="divider"></div>
+
+
+
+        <h2 class="jogo">Jogo da vida</h2>
+        <div id="board"></div>
+        <script src="./jogo.js"></script>
+        <div class="divider"></div>
+
+       <section class="content">
+           <h3>Divisor de Conta de Restaurante</h3>
+           <div id="input-section">
+               <div class="input-container">
+                 <label for="customers">Clientes:</label>
+                 <textarea id="customers" rows="2" cols="50" placeholder="Insira os nomes dos clientes separados por vírgula"></textarea>
+               </div>
+               
+               <div class="input-container">
+                 <label for="products">Produtos:</label>
+                 <textarea id="products" rows="5" cols="50" placeholder="Insira os produtos e seus respectivos valores separados por vírgula, valores inteiros sem vírgula"></textarea>
+               </div>
+               
+               <button id="calculate-btn" onclick="calculateBill()">Calcular</button>
+             </div>
+             
+             <div id="result-section" class="result-container">
+               <h4>Resultado:</h4>
+               <div id="result"></div>
+           </div>
+             <script src="./resta.js"></script>
+       </section>
+
+
+</body>
+</html>
